@@ -1,0 +1,27 @@
+
+              TMUX QUICK REFERENCE
+  ─────────────────────────────────────────────
+
+  SESSION                    WINDOW
+  C-b d    detach            C-b c    new window
+  C-b s    list sessions     C-b n/p  next/prev
+  C-b $    rename            C-b 1-9  jump to
+                             C-b ,    rename
+                             C-b &    close
+
+  PANE                       COPY (vi mode)
+  C-b %    split |           C-b [    enter
+  C-b "    split -           v        select
+  C-b z    zoom              y        yank
+  C-b x    close             /        search
+  C-h/j/k/l  navigate        q        quit
+
+  PLUGINS
+  C-b Space  thumbs copy     C-b p    float pane
+  C-b \      menus           C-b F    fzf find
+  C-b C-s    save session    C-b r    reload conf
+  C-b C-r    restore         C-b I    install plugins
+  C-b C-y    copy pane to clipboard
+
+  ─────────────────────────────────────────────
+             Press any key to close
